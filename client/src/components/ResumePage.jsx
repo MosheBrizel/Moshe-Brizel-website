@@ -7,15 +7,16 @@ function ResumePage() {
 
   const resumeData = [
     {
+
       title: "English",
-      href: "../../public/files/English Resums Moshe Brizel.pdf",
-      download: "English Resums Moshe Brisel.pdf",
+      href: "/files/English Resums Moshe Brizel.pdf",
+      download: "English Resums Moshe Brizel.pdf",
       imgSrc: pathServerTest + "/PDF_file_icon.svg.png",
       imgAlt: "PDF file",
     },
     {
       title: "עברית",
-      href: "../../public/files/קורות חיים בעברית.pdf",
+      href: "/files/קורות חיים בעברית.pdf",
       download: "קורות חיים בעברית.pdf",
       imgSrc: pathServerTest + "/PDF_file_icon.svg.png",
       imgAlt: "PDF file",
