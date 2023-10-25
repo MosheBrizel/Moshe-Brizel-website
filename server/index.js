@@ -24,14 +24,11 @@ let listNamesFiles = [
   "WhatsApp.svg.png",
 ];
 
-app.use(express.static(path.join(__dirname, 'dist')));
-
-
 app.get("/", (req, res) => {
   res.send("seccfoly");
 });
 
-app.get("api/:imagName", (req, res) => {
+app.get("/:imagName", (req, res) => {
   const nameFile = req.params.imagName;
   console.log(nameFile);
   if (listNamesFiles.includes(nameFile)) {
@@ -44,4 +41,4 @@ app.get("api/:imagName", (req, res) => {
 app.listen(port, () => {
   console.log("the server is runing in port " + port);
 });
-export default app
+export default app;
