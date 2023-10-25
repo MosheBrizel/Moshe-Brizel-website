@@ -44,4 +44,4 @@ app.get("api/:imagName", (req, res) => {
 app.listen(port, () => {
   console.log("the server is runing in port " + port);
 });
-module.exports = app
+export default app
