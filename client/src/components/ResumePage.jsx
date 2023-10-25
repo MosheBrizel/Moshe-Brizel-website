@@ -1,7 +1,6 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const pathServerTest = "https://node-api-image-moshe-brizel-website.vercel.app";
-
 
 function ResumePage() {
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -9,14 +8,14 @@ function ResumePage() {
   const resumeData = [
     {
       title: "English",
-      href: "./files/English Resums Moshe Brisel.pdf",
+      href: pathServerTest + "/English Resums Moshe Brisel.pdf",
       download: "English Resums Moshe Brisel.pdf",
       imgSrc: pathServerTest + "/PDF_file_icon.svg.png",
       imgAlt: "PDF file",
     },
     {
       title: "עברית",
-      href: "./files/קורות חיים בעברית.pdf",
+      href: pathServerTest + "/קורות חיים בעברית.pdf",
       download: "קורות חיים בעברית.pdf",
       imgSrc: pathServerTest + "/PDF_file_icon.svg.png",
       imgAlt: "PDF file",
