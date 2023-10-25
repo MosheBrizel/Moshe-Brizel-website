@@ -6,7 +6,7 @@ import Project from "./components/Project";
 import ResumePage from "./components/ResumePage";
 import Links from "./components/Links";
 
-const pathServerTest = "http://localhost:5050";
+const pathServerTest = "https://node-api-image-moshe-brizel-website.vercel.app";
 
 export default function App() {
   return (

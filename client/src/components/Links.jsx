@@ -1,7 +1,6 @@
 import { useState,useEffect } from "react";
 import ConnectLinks from "./ConnectLinks";
 
-const pathServerTest = "http://localhost:5050";
 
 
 function Links() {

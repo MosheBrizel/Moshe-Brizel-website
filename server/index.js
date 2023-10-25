@@ -2,7 +2,6 @@ import express from "express";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
-import path from "path";
 
 const app = express();
 let port = 5050;

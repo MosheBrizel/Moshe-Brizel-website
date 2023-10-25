@@ -1,6 +1,6 @@
 import React from "react";
 
-const pathServerTest = "http://localhost:5050";
+const pathServerTest = "https://node-api-image-moshe-brizel-website.vercel.app";
 
 const links = [
   {
