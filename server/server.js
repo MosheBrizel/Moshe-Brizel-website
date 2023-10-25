@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'dist')));
 
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+  res.send("seccfoly");
 });
 
 app.get("/:imagName", (req, res) => {
@@ -37,7 +37,7 @@ app.get("/:imagName", (req, res) => {
   if (listNamesFiles.includes(nameFile)) {
     res.sendFile(__dirname + "/media/" + nameFile);
   } else {
-    res.send("moshe");
+    res.send("is note image in this name");
   }
 });
 
