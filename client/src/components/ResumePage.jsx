@@ -8,7 +8,7 @@ function ResumePage() {
   const resumeData = [
     {
       title: "English",
-      href: pathServerTest + "/English Resums Moshe Brisel.pdf",
+      href: pathServerTest + "/English Resums Moshe Brizel.pdf",
       download: "English Resums Moshe Brisel.pdf",
       imgSrc: pathServerTest + "/PDF_file_icon.svg.png",
       imgAlt: "PDF file",
