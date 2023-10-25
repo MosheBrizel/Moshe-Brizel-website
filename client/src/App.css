@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond:wght@600&family=Noto+Serif+Hebrew:wght@400;500&family=Pacifico&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@300&family=Suez+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --path-image-computer: "http://localhost:5050";
+}
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image:  url("http://localhost:5050/background img comouter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.titles-text {
+  font-family: "Inconsolata", monospace;
+}
+.type-text > h1 {
+  margin: 10vh;
+}
+
+.type-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  font-size: 3vh;
+}
+
+/* resume */
+
+.resume {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 1vh;
+  text-align: center;
+  transition: all 2s;
+}
+.resume-page img:hover {
+  box-shadow: 0px 0px 9px 5px rgba(137, 196, 185, 1);
+}
+.resume-page img {
+  width: 50px;
+  border-radius: 3px 26% 3px 3px;
+  margin: 10px;
+}
+.resume-page {
+  background-color: #456706c9;
+  transition: all 1.5s;
+  border: 2px solid;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: absolute;
+  top: auto;
+  right: 0;
+}
+
+/* skills */
+.box-skills {
+  background-color: rgba(0, 0, 0, 0.637);
+  padding: 2vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+  border: 0.5vh solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: first baseline;
+  align-content: center;
+  box-shadow: 0 0 0px black, 0 0 25px gray, 0 0 5px rgb(161, 161, 161);
+}
+.skill {
+  margin: 3vh;
+}
+.skill > img {
+  width: 10vh;
+  min-width: 10vh;
+  margin: 0px;
+}
+.skill > p {
+  margin: 0px;
+  padding: 0px;
+}
+#skills {
+  margin-top: 0;
+}
+
+/* my-pectuer */
+
+.my-pectuer {
+  text-align: center;
+
+  margin: 8vh;
+}
+.my-pectuer img {
+  width: 40vh;
+}
+.my-pectuer img {
+  /* width: 100%; */
+  border-radius: 50%;
+  border: 1px solid rgba(70, 69, 69, 0.854);
+  box-shadow: 0px 0px 15px 3px rgba(145, 145, 145, 1);
+}
+
+/* name */
+.name > span {
+  color: rgb(255, 255, 255);
+  font-family: "Pacifico", cursive;
+  font-size: 15vh;
+}
+.name {
+  text-align: center;
+}
+
+/* links */
+.img-links {
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+}
+.links-conect {
+  margin-bottom: 0px;
+}
+.linke-to-connect {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.linkes-in-page {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.linkes-in-page > a {
+  color: white;
+}
+.linkes-in-page > a:hover {
+  color: gray;
+}
+
+.end {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  background-color: rgba(10, 75, 21, 0.829);
+}
+
+.div-end > h3 {
+  color: white;
+  text-align: center;
+}
+.div-end {
+  transition: all 1.5s;
+}
+
+/* about */
+.about-text {
+  width: 100%;
+  margin-left: 0;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: rgba(134, 65, 69, 0.74);
+}
+.about-text > div {
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* github-button */
+.github-button {
+  width: 80px;
+  padding: 10px 20px;
+  background-color: rgba(117, 171, 35, 0.958);
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+.github-button:hover {
+  background-color: rgba(54, 79, 16, 0.958);
+}
+.button-github {
+  border-radius: 10px;
+  padding: 2%;
+}
+
+/* project */
+
+.all-projectes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: row;
+  align-items: center;
+}
+.grow-up-box-projects > h2 {
+  font-size: 1em;
+}
+.p-projects {
+  font-size: 0;
+}
+.grow-up-box-projects {
+  position: absolute;
+  transition: all 1s;
+  min-height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: rgba(162, 243, 186, 0.61);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box-projects img {
+  width: 100%;
+}
+.box-projects {
+  position: relative;
+  width: 30%;
+  min-width: 35%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.p-projects {
+  font-size: 0px;
+  transform: scale(0);
+  transform-origin: top;
+  transition: all 1s ease;
+}
+
+.box-projects:hover .p-projects {
+  font-size: 15px;
+  transform: scale(1);
+}
+.box-projects:hover .grow-up-box-projects {
+  background-color: rgb(162, 243, 186);
+}
+.box-projects:hover .grow-up-box-projects {
+  z-index: 2;
+  transform: scale(1);
+}
+
+.projects {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* for phone */
+@media (max-width: 680px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("/background img phone.jpg");
+  }
+  .box-projects img {
+    width: 80%;
+    border-radius: 20px;
+    float: top;
+    border-radius: 5px;
+  }
+  .grow-up-box-projects {
+    min-height: 350px;
+  }
+  .box-projects {
+    position: relative;
+    width: 80%;
+    height: 450px;
+  }
+  .all-projectes {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #skills {
+    margin-top: 25vh;
+  }
+  .my-pectuer img {
+    width: 100%;
+  }
+  .name > span {
+    font-size: 8vh;
+  }
+
+  .about-text > div {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .about-text p {
+    font-size: 20px;
+  }
+  .skill > img {
+    width: 5vh;
+    min-width: 5vh;
+  }
+  .skill > p {
+    font-size: 20px;
+  }
+  .grow-up-box-projects > h2 {
+    font-size: 25px;
+  }
+  .box-projects:hover .p-projects {
+    font-size: 15px;
+    transform: scale(1);
+  }
+}
