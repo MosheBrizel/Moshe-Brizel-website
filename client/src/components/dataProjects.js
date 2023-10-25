@@ -47,12 +47,12 @@ export let lisetProjects = [
     textProject:
       "I created a puzzle game called Ball Jumping Game with React. The goal is to eliminate all white balls by jumping over them, leaving only one black ball.\n It features levels of increasing difficulty with different arrangements of colored balls in rows. Players click on a ball to initiate a jump to an empty space, which removes the jumped over ball. \nValid moves highlight in green. The player wins by removing all white balls through jumps. Losing occurs if no more valid jumps remain. \nThe game includes 47 levels, instructions modal, level select dropdown, and reset board button. Styling was done with CSS.\nI utilized React capabilities for creating components like Ball, LevelSelect, and Game. React Hooks API managed state for board data, level status, etc. \nThis project shows my skills in building interactive applications with React. It combines game logic programming with clean component architecture. I enjoyed creating an engaging puzzle game to demonstrate React in a fun way.",
   },
-  {
-    srcGif: "",
-    textH2: "",
-    hrefGit: "",
-    buttonWeb: false,
-    hrefPlay: "",
-    textProject: "",
-  },
+  // {
+  //   srcGif: "",
+  //   textH2: "",
+  //   hrefGit: "",
+  //   buttonWeb: false,
+  //   hrefPlay: "",
+  //   textProject: "",
+  // },
 ];
