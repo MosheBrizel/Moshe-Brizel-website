@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
   res.send("seccfoly");
 });
 
-app.get("/:imagName", (req, res) => {
+app.get("api/:imagName", (req, res) => {
   const nameFile = req.params.imagName;
   console.log(nameFile);
   if (listNamesFiles.includes(nameFile)) {
