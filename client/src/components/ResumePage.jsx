@@ -7,7 +7,6 @@ function ResumePage() {
 
   const resumeData = [
     {
-
       title: "English",
       href: "/files/English Resums Moshe Brizel.pdf",
       download: "English Resums Moshe Brizel.pdf",
@@ -51,16 +50,19 @@ function ResumePage() {
       style={{ width: isIntersecting ? "350px" : "20px" }}
     >
       {isIntersecting && (
-        <div className="resume">
-          {resumeData.map((item, index) => (
-            <div key={index}>
-              <h3>{item.title}</h3>
-              <a href={item.href} download={item.download}>
-                <img src={item.imgSrc} alt={item.imgAlt} />
-              </a>
-            </div>
-          ))}
-        </div>
+        <>
+        <h2>resume</h2>
+          <div className="resume">
+            {resumeData.map((item, index) => (
+              <div key={index}>
+                <h3>{item.title}</h3>
+                <a href={item.href} download={item.download}>
+                  <img src={item.imgSrc} alt={item.imgAlt} />
+                </a>
+              </div>
+            ))}
+          </div>
+        </>
       )}
     </div>
   );
