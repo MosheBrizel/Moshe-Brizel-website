@@ -2,7 +2,7 @@ export default function Project(props) {
   return (
     <div className="box-projects">
       <div className="grow-up-box-projects">
-        <img src={props.pro.srcGif} alt="gif of the game" />
+        <img src={props.pro.srcGif} alt="gif of the game" loading="lazy"/>
 
         <h2>{props.pro.textH2}</h2>
 

@@ -57,7 +57,7 @@ function ResumePage() {
               <div key={index}>
                 <h3>{item.title}</h3>
                 <a href={item.href} download={item.download}>
-                  <img src={item.imgSrc} alt={item.imgAlt} />
+                  <img src={item.imgSrc} alt={item.imgAlt} loading="lazy" />
                 </a>
               </div>
             ))}
