@@ -28,14 +28,19 @@ export default function Skills() {
       src: "https://storage.needpix.com/rsynced_images/database-149760_1280.png",
     },
     {
-      skill: "Assembly",
-      alt: "",
-      src: "https://www.powerandcables.com/wp-content/uploads/2021/02/ASM-Symbol-Blue-Tight-002-min.png",
-    },
-    {
       skill: "JavaScript",
       alt: "",
       src: "https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png",
+    },
+    {
+      skill: "React",
+      alt: "",
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+    },
+    {
+      skill: "Node.js",
+      alt: "",
+      src: "https://the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png",
     },
   ];
 
