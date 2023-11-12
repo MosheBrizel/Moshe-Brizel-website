@@ -1,25 +1,29 @@
 export default function AboutMe() {
   return (
-    <div id="about-me"  className="about-text type-text">
+    <div id="about-me" className="about-text type-text">
       <div>
-        <h1  className="titles-text">About me:</h1>
+        <h1 className="titles-text">About me:</h1>
         <p>
-          I love coding and finding solutions for challenging problems. <br />
-          As a programmer, I enjoy creating things and leveraging my technical
-          skills to build useful applications and systems. <br />
-          When I'm not busy coding, I like to spend my free time understand how
-          things work. <br />
-          With my analytical mindset and passion for technology, I thrive on
-          staying up-to-date on the latest coding techniques and innovations.
+          I am a driven and quick-learning software technician seeking an
+          exciting and challenging role to utilize my skills. I recently
+          graduated with honors from the MeGo program at Ort College, where I
+          honed skills in various programming languages like Python, C#, SQL,
+          and JavaScript.
           <br />
-          Driven by my natural curiosity, I am always expanding my skills in
-          pursuit of new creative outlets. <br />
-          I bring a thoughtful and methodical approach to everything I work on,
-          whether it's a complex project for a client or simply tinkering with a
-          fun side project. <br />
-          My unique blend of perseverance, discipline, and imagination allows me
-          to tackle obstacles head-on. <br />
-          One of the things I am proud of is to being on time.
+          Through MeGo, I led an infrastructure team to build a task management
+          web application using MongoDB, Express, React, and Node.js. We
+          designed the database schema in MongoDB, built a React frontend, and
+          developed an API with authentication. <br />I also created a
+          tic-tac-toe game in Python where the computer learns from user moves,
+          and other projects. <br />
+          Beyond coding, I have great interpersonal abilities like working
+          effectively on teams, communicating clearly, and delivering reliably
+          on deadlines. I continuously seek opportunities to expand my knowledge
+          and experience. Whether tackling simple scripts or complex systems, I
+          approach problems methodically and creatively. <br />I am an
+          ambitious, quick learner excited to take on new professional
+          challenges. Please view my portfolio and GitHub for code samples and
+          examples of my work.
         </p>
       </div>
     </div>
