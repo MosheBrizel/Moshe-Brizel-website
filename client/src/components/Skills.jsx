@@ -46,7 +46,7 @@ export default function Skills() {
 
   return (
     <div id="skills" className="type-text">
-      <h1 className="titles-text">skills:</h1>
+      <h1 className="titles-text">My stack:</h1>
       <div className="box-skills">
         {listSkills.map((item, index) => {
           return <Skill key={index} objectSkill={item} />;
