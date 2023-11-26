@@ -9,7 +9,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background-image: url("https://node-api-image-moshe-brizel-website.vercel.app/background img comouter.jpg");
+  background-image: linear-gradient(
+      rgba(253, 253, 253, 0.064),
+      rgba(242, 238, 238, 0.317)
+    ),
+    url("https://node-api-image-moshe-brizel-website.vercel.app/background%20img%20comouter.jpg");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,14 +23,14 @@ body {
   font-family: "Inconsolata", monospace;
 }
 .type-text > h1 {
-  margin: 10vh;
+  margin: 100px;
 }
 
 .type-text {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
-  font-size: 3vh;
+  font-size: 20px;
 }
 
 /* resume */
@@ -34,27 +39,29 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  margin-top:10px ;
-  gap: 1vh;
+  margin-top: 10px;
+  gap: 0px;
   text-align: center;
   transition: all 2s;
+  margin: auto;
 }
-.resume h3{
+.resume h3 {
   margin: 0;
+  color: rgb(255, 255, 255);
 }
 .resume-page img:hover {
   box-shadow: 0px 0px 9px 5px rgba(137, 196, 185, 1);
 }
-.resume-page{
+.resume-page {
   text-align: center;
-  margin-top: 0;
+  margin-top: 50px;
 }
 .resume-page h2 {
- margin: 0;
-
+  color: rgb(255, 255, 255);
+  margin: 0;
 }
 .resume-page img {
-  width: 50px;
+  width: auto;
   border-radius: 3px 26% 3px 3px;
   margin: 10px;
   animation: inflateAndFade 2s infinite;
@@ -71,6 +78,8 @@ body {
   }
 }
 .resume-page {
+  width: 100px;
+  height: auto;
   background-color: #456706c9;
   transition: all 1.5s;
   border: 2px solid;
@@ -86,11 +95,11 @@ body {
 /* skills */
 .box-skills {
   background-color: rgba(0, 0, 0, 0.637);
-  padding: 2vh;
+  padding: 2.5%;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 20px;
-  border: 0.5vh solid gray;
+  border: 0.5px solid gray;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -99,11 +108,10 @@ body {
   box-shadow: 0 0 0px black, 0 0 25px gray, 0 0 5px rgb(161, 161, 161);
 }
 .skill {
-  margin: 3vh;
+  margin: 3%;
 }
 .skill > img {
-  width: 10vh;
-  min-width: 10vh;
+  width: 80px;
   margin: 0px;
 }
 .skill > p {
@@ -118,14 +126,12 @@ body {
 
 .my-pectuer {
   text-align: center;
+  margin: 50px;
+}
 
-  margin: 8vh;
-}
 .my-pectuer img {
-  width: 40vh;
-}
-.my-pectuer img {
-  /* width: 100%; */
+  width: 300px;
+
   border-radius: 50%;
   border: 1px solid rgba(70, 69, 69, 0.854);
   box-shadow: 0px 0px 15px 3px rgba(145, 145, 145, 1);
@@ -135,7 +141,7 @@ body {
 .name > span {
   color: rgb(255, 255, 255);
   font-family: "Pacifico", cursive;
-  font-size: 15vh;
+  font-size: 100px;
 }
 .name {
   text-align: center;
@@ -147,24 +153,23 @@ body {
   height: 50px;
   transition: 1s;
 }
-.links-conect {
-  margin-bottom: 0px;
-}
 .linke-to-connect {
   display: flex;
   justify-content: center;
+  margin: auto;
   gap: 30px;
 }
 .linkes-in-page {
   margin-top: 40px;
   display: flex;
+  margin: auto;
   gap: 20px;
 }
 .linkes-in-page > a {
   color: white;
 }
 .linkes-in-page > a:hover {
-  color: gray;
+  color: rgb(128, 128, 128);
 }
 
 .end {
@@ -186,11 +191,12 @@ body {
 }
 
 /* about */
+
 .about-text {
   width: 100%;
   margin-left: 0;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: rgba(134, 65, 69, 0.74);
 }
 .about-text > div {
@@ -218,6 +224,7 @@ body {
 .button-github {
   border-radius: 10px;
   padding: 2%;
+  margin: auto;
 }
 
 /* project */
@@ -259,8 +266,7 @@ body {
 }
 .box-projects {
   position: relative;
-  width: 30%;
-  min-width: 35%;
+  width: 400px;
   height: 350px;
   margin-bottom: 20px;
 }
@@ -296,7 +302,11 @@ body {
 @media (max-width: 680px) {
   body {
     font-family: "Montserrat", sans-serif;
-    background-image: url("https://node-api-image-moshe-brizel-website.vercel.app/background img phone.jpg");
+    background-image: linear-gradient(
+        rgba(253, 253, 253, 0.03),
+        rgba(242, 238, 238, 0.317)
+      ),
+      url("https://node-api-image-moshe-brizel-website.vercel.app/background img phone.jpg");
   }
   .box-projects img {
     width: 80%;
@@ -317,13 +327,13 @@ body {
     gap: 20px;
   }
   #skills {
-    margin-top: 25vh;
+    margin-top: 250px;
   }
   .my-pectuer img {
-    width: 100%;
+    width: 300px;
   }
   .name > span {
-    font-size: 8vh;
+    font-size: 70px;
   }
 
   .about-text > div {
@@ -334,8 +344,7 @@ body {
     font-size: 20px;
   }
   .skill > img {
-    width: 5vh;
-    min-width: 5vh;
+    width: 50px;
   }
   .skill > p {
     font-size: 20px;

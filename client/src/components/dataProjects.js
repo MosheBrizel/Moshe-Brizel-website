@@ -8,7 +8,7 @@ export let lisetProjects = [
     buttonWeb: false,
     hrefPlay: "",
     textProject:
-      "I created a playable tic tac toe game with a GUI interface in Python using Tkinter. The game includes an AI opponent that leverages reinforcement learning to progressively improve its strategy. \nThe AI player maintains a dictionary tracking which moves lead to wins or losses based on past games. It utilizes this data to choose moves with the highest historical win rates. \n Over repeated self-play, the AI learns favorable moves leading to victories. The learned data persists between sessions by saving to a file. \n This project demonstrates applying basic reinforcement learning to a game AI, allowing it to start with no knowledge and improve through experience. The end result is an AI that continuously refines its strategy presenting an increasing challenge.",
+      "I created a playable tic tac toe game with a GUI interface in Python using Tkinter. \nThe game includes an AI opponent that leverages reinforcement learning to progressively improve its strategy. \nThe AI player maintains a dictionary tracking which moves lead to wins or losses based on past games. It utilizes this data to choose moves with the highest historical win rates. \n Over repeated self-play, the AI learns favorable moves leading to victories. The learned data persists between sessions by saving to a file. \n This project demonstrates applying basic reinforcement learning to a game AI, allowing it to start with no knowledge and improve through experience. The end result is an AI that continuously refines its strategy presenting an increasing challenge.",
   },
   {
     srcGif: pathServerTest + "/network.gif",

@@ -47,17 +47,20 @@ function ResumePage() {
     <div
       id="resume"
       className="resume-page"
-      style={{ width: isIntersecting ? "350px" : "20px" }}
+      style={{
+        width: isIntersecting ? "350px" : "130px",
+        height: isIntersecting ? "auto" : "200px",
+      }}
     >
       {isIntersecting && (
         <>
-        <h2>resume</h2>
+          <h2>resume</h2>
           <div className="resume">
             {resumeData.map((item, index) => (
               <div key={index}>
                 <h3>{item.title}</h3>
                 <a href={item.href} download={item.download}>
-                  <img src={item.imgSrc} alt={item.imgAlt} loading="lazy" />
+                  <img src={item.imgSrc} alt={item.imgAlt} />
                 </a>
               </div>
             ))}
